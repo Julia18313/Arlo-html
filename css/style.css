@@ -7,8 +7,7 @@ html,body,ul{
     box-sizing: border-box;
 }
 
-.navbar-left{
-    background-color: #ffffff;
+.navbar-left {
     width: 0;  
     height: 100vh;
     position: fixed;
@@ -19,21 +18,17 @@ html,body,ul{
 }
 
 .navbar-left.show{
+    background-color: #191919;
     width: 360px;
-    padding: 60px;
+    
 }
+
 
 .logo{
-    height:15px;
-    position: relative;
+    float: left;
+
 }
 
-.logo > img{
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    transform: translate(-50,-50);
-}
 
 
     
