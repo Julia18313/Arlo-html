@@ -1,6 +1,8 @@
-html,body{
+
+html,body,ul{
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 *{
@@ -8,7 +10,7 @@ html,body{
 }
 
 .navbar-left {
-     background-color:#fff;
+     background-color:#ffff;
      width: 0;
      height: 100vh;
      position: fixed;
@@ -35,6 +37,55 @@ html,body{
     left: 30%;
     top: 40%;
     transform: translate(-50%, -50%);
+}
+
+.nav-menu ul>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 15px 10px 15px 58px;
+    display: inline-block;
+    position: relative;
+    transition: all .2s;
+    
+}
+
+.nav-menu ul>li>a:hover{
+    color: orange;
+}
+
+/*.nav-menu ul>li>a>span{
+    display: inline-block;
+    background-color: orange;
+    width: 0;
+    transition: all 0.8s;
+}
+
+.nav-menu ul>li>a:hover>span{
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background-color: #ffff;
+    
+}*/
+
+.nav-menu ul>li>a::after{
+    content: '';
+    display: inline-block;
+    background-color: orange;
+    width: 0;
+    height: 2px;
+    transition: all .2s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+
+}
+
+.nav-menu ul>li>a:hover::after{
+    width: 50px;
+    
 }
 
 
