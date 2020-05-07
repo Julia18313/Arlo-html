@@ -88,6 +88,34 @@ html,body,ul{
     
 }
 
+.social-links{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 17px;
+}
+
+.social-links li{
+    margin-right: 15px;
+
+}
+
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.social-links li a{
+    color: #ffff;
+    
+}
+.social-links li a:hover{
+    color: orange;
+    transition: all .4s;
+}
+
+
+
 
 
 
