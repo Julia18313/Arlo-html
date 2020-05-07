@@ -7,6 +7,8 @@ html,body,ul{
 
 *{
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .navbar-left {
@@ -51,7 +53,7 @@ html,body,ul{
 }
 
 .nav-menu ul>li>a:hover{
-    color: orange;
+    color: red;
 }
 
 /*.nav-menu ul>li>a>span{
@@ -72,7 +74,7 @@ html,body,ul{
 .nav-menu ul>li>a::after{
     content: '';
     display: inline-block;
-    background-color: orange;
+    background-color: red;
     width: 0;
     height: 2px;
     transition: all .2s;
@@ -110,7 +112,7 @@ html,body,ul{
     
 }
 .social-links li a:hover{
-    color: orange;
+    color: red;
     transition: all .4s;
 }
 
