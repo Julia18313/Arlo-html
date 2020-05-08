@@ -7,7 +7,7 @@ html,body,ul{
 
 *{
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
@@ -71,7 +71,7 @@ html,body,ul{
     
 }*/
 
-.nav-menu ul>li>a::after{
+/*.nav-menu ul>li>a::after{
     content: '';
     display: inline-block;
     background-color: red;
@@ -83,12 +83,19 @@ html,body,ul{
     transform: translateY(-50%);
     margin-left: 10px;
 
+}*/
+
+.nav-menu ul>li>a{
+    border-bottom: solid 1px;
+    color: #000000;
+    margin-left: 30px;
+    align-items: center;
 }
 
-.nav-menu ul>li>a:hover::after{
+/*.nav-menu ul>li>a:hover::after{
     width: 50px;
     
-}
+}*/
 
 .social-links{
     display: flex;
@@ -115,6 +122,13 @@ html,body,ul{
     color: red;
     transition: all .4s;
 }
+
+
+.right-content{
+    width: 400px;
+    height: 100vh;
+}
+
 
 
 
